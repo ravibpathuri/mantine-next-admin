@@ -1,5 +1,5 @@
 import { render, screen, waitFor } from "@testing-library/react";
-import Details from "../details";
+import Details from "../../../src/pages/user/[userName]/details";
 import "@testing-library/jest-dom";
 import { useRouter } from "next/router";
 import userEvent from "@testing-library/user-event";
